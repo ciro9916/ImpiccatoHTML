@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Gioco dell'Impiccato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="titolo">Gioco dell'Impiccato</h1>
+<hr>
+<div class="gioco">
+    <h3>Indovina la parola</h3>
+    <p id="Regole">Ciao benvenuto al gioco dell'impiccato!<br><strong>ATTENZIONE INSERIRE SOLO LETTERE IN MINUSCOLO, altrimenti sarai penalizzato!<br>Guarda il regolamento per sapere come</strong><br><a id="regolas" href="Discorso.html">Clicca qui per vedere le regole!</a></p>
+    <div class="diff">
+        <h3>Seleziona difficoltà:  </h3>
+        <input type="radio" name="Difficolta" id="1">Normale
+        <br>
+        <input type="radio" name="Difficolta" id="2">Difficile
+        <br>
+        <form>
+            <button type="button" id="iniziaGioco">Inizia il gioco</button>
+        </form>
+    </div>
+
+    <div id="statoGioco" hidden>
+        <p>Tentativi rimanenti: <span id="tentativi" ></span></p>
+        <p>Punteggio: <span id="punteggio" ></span></p>
+        <div id="in"></div>
+    </div>
+
+    <div id="messaggioRisultato" hidden>
+        <p></p>
+    </div>
+
+    <div id="inputUtente" hidden>
+        <br><br>
+        <button type="button" id="provaLettera" onclick="controllaLettere()">Prova lettera</button>
+        <button type="button" id="provaParola" onclick="controllaParola()">Prova parola</button>
+        <br><br>
+        <button type="button" id="restartAll" onclick="rest()">Restart</button>
+    </div>
+    <br>
+    <button type="button" id="continua" onclick="Continua()" hidden>Continua</button>
+
+    <div id="imagine">
+        <!-- Ingrandisci leggermente le immagini -->
+        <img id="asta" src="asse.png" alt="Asta" style="position: absolute; bottom: 5px; left: 70%; display: none; transform: scale(10);">
+        <img id="corda" src="corda.png" alt="Corda" style="position: absolute; bottom: 5px; left: 70%; display: none; transform: scale(10);">
+        <img id="testa" src="testa.png" alt="Testa" style="position: absolute; bottom: 5px; left: 70%; display: none; transform: scale(10);">
+        <img id="busto" src="busto.png" alt="Busto" style="position: absolute; bottom: 5px; left: 70%; display: none; transform: scale(10);">
+        <img id="braccia" src="arti.png" alt="Braccia" style="position: absolute; bottom: 5px; left: 70%; display: none; transform: scale(10);">
+    </div>
+
+    <button type="button" id="rigioca" onclick="rest()" hidden>Rigioca</button>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Ciao benvenuto all'Impiccato versione estrema !!!!
+Ma come funziona il gioco ? IO sceglierò una parola random inerente alla “Giornata internazionale contro l'omofobia, la bifobia e la transfobia”. 
+Tu proverai ad inserire delle lettere nelle varie posizioni ed io visto che sono una brava persona ti indicherò con il colore verde se quella lettera è nella posizione
+giusta,tramite il giallo se quella lettera è presenta nella parola ma non nella posizione indicata (1a , ultima , e lettere corrette non sono posizioni che contano nel 
+controllo).
+Mentre per il punteggio:
+- se si tenta di indovinare la parola: 20 punti parola corretta, -5 punti parola totalmente errata
+-se si tenta di indovinare le singole lettere: 5 punti per ogni lettera corretta, - 1 punto per ogni lettera errata
+
+Avrai 5 tentativi prima che il gioco finisca .
+Buona fortuna.

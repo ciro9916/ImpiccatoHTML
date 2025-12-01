@@ -1,0 +1,43 @@
+body {
+    font-size: 20px;
+}
+
+
+.gioco {
+    position: relative;
+}
+
+button
+{
+    scale: 1.05;
+}
+
+#asta, #corda, #testa, #busto, #braccia {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 30px;
+    display: none;
+}
+
+
+/* Aggiungi le immagini alle rispettive parti dell'omino impiccato */
+#asta {
+    background: url("asse.png")
+}
+
+#corda {
+    background: url("corda.png")
+}
+
+#testa {
+    background: url("testa.png")
+}
+
+#busto {
+    background: url("busto.png")
+}
+
+#braccia {
+    background: url("arti.png")
+}
